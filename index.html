@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXUS Vanguard Logistics S.A.</title>
+<style>
+  /* ======= GLOBAL ======= */
+  * { box-sizing: border-box; margin:0; padding:0; }
+  body { font-family: Arial, Helvetica, sans-serif; background:#0f172a; color:#fff; line-height:1.6; }
+  a { color:#38bdf8; text-decoration:none; }
+  img { max-width:100%; border-radius:12px; }
+  section { padding:50px 20px; max-width:1100px; margin:auto; }
+  h1,h2,h3 { margin-bottom:20px; }
+  h1 { font-size:36px; }
+  h2 { font-size:28px; }
+  h3 { font-size:22px; }
+  p { margin-bottom:15px; }
+
+  /* ======= HEADER ======= */
+  header { text-align:center; padding:60px 20px; background:#020617; }
+  header h1 { font-size:42px; }
+  header p { font-size:18px; color:#94a3b8; }
+
+  /* ======= NAV ======= */
+  nav { display:flex; justify-content:center; background:#1e293b; padding:15px 0; flex-wrap:wrap; gap:20px; }
+  nav a { font-weight:bold; color:#fff; }
+
+  /* ======= CARDS ======= */
+  .card { background:#1e293b; padding:20px; border-radius:12px; margin-bottom:20px; }
+
+  /* ======= GRID ======= */
+  .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  .grid-3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:20px; }
+  @media(max-width:768px){ .grid-2,.grid-3 { grid-template-columns:1fr; } }
+
+  /* ======= FOOTER ======= */
+  footer { text-align:center; background:#020617; padding:20px; font-size:14px; color:#94a3b8; }
+  .contact-card { display:flex; align-items:center; gap:10px; }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#industries">Industries</a>
+  <a href="#compliance">Compliance</a>
+  <a href="#transport">Transport & Logistics</a>
+  <a href="#about">About / Team</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HOME -->
+<header id="home">
+  <h1>NEXUS Vanguard Logistics S.A.</h1>
+  <p>Integrated Transport & Logistics Solutions across Mozambique and beyond</p>
+  <img src="truck.jpg" alt="Truck image">
+</header>
+
+<!-- SERVICES -->
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="grid-2">
+    <div class="card">Road Freight & Cross-Border Transport</div>
+    <div class="card">Customs Clearing & Manifest Management</div>
+    <div class="card">Logistics Coordination & Brokerage</div>
+    <div class="card">Project Cargo & Industrial Transport</div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section id="industries">
+  <h2>Industries We Serve</h2>
+  <div class="grid-3">
+    <div class="card">Construction & Engineering</div>
+    <div class="card">Mining & Resources</div>
+    <div class="card">Agriculture & Food</div>
+    <div class="card">Energy & Power</div>
+    <div class="card">Manufacturing</div>
+  </div>
+</section>
+
+<!-- COMPLIANCE -->
+<section id="compliance">
+  <h2>Compliance & Governance</h2>
+  <div class="card">
+    Accurate customs documentation, strict adherence to regulations, risk mitigation, and transparent audit-ready processes.
+  </div>
+</section>
+
+<!-- TRANSPORT & LOGISTICS -->
+<section id="transport">
+  <h2>Transport & Logistics</h2>
+  <div class="grid-2">
+    <div class="card">Fleet & Carrier Coordination</div>
+    <div class="card">Secure Operations & Cargo Monitoring</div>
+    <div class="card">Cross-Border Transport Management</div>
+  </div>
+</section>
+
+<!-- ABOUT / TEAM -->
+<section id="about">
+  <h2>About Us & Our Team</h2>
+  <div class="card">
+    NEXUS Vanguard Logistics S.A. is committed to delivering reliable logistics solutions, staffed by experienced professionals ensuring your cargo arrives safely and on time.
+  </div>
+  <div class="grid-3">
+    <div class="card">
+      <h3>John Doe</h3>
+      <p>CEO</p>
+    </div>
+    <div class="card">
+      <h3>Jane Smith</h3>
+      <p>Operations Manager</p>
+    </div>
+    <div class="card">
+      <h3>Ali Mohamed</h3>
+      <p>Logistics Coordinator</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="card contact-card">
+    <span>📍</span>
+    <p>Rua Capitão Rochas, Beira, Mozambique</p>
+  </div>
+  <div class="card contact-card">
+    <span>📧</span>
+    <p>info@nexuslogistics.co.mz</p>
+  </div>
+  <div class="card contact-card">
+    <span>📞</span>
+    <p>+258 XXX XXX XXX</p>
+  </div>
+
+  <h3>Send a Message</h3>
+  <form>
+    <input type="text" placeholder="Full Name" style="width:100%;padding:10px;margin-bottom:10px;border-radius:8px;">
+    <input type="email" placeholder="Email" style="width:100%;padding:10px;margin-bottom:10px;border-radius:8px;">
+    <input type="text" placeholder="Phone" style="width:100%;padding:10px;margin-bottom:10px;border-radius:8px;">
+    <textarea placeholder="Your Message" style="width:100%;padding:10px;margin-bottom:10px;border-radius:8px;"></textarea>
+    <button type="submit" style="padding:10px 20px;border-radius:8px;background:#38bdf8;color:#020617;border:none;">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2025 NEXUS Vanguard Logistics S.A.
+</footer>
+
+</body>
+  </html>
