@@ -209,15 +209,16 @@
     <p>+258 872535100</p>
   </div>
   <span>📞</span>
-    <p>+258 847332402</p>
-
-  <h3>Send a Message</h3>
-  <form>
-    <input type="text" placeholder="Full Name" style="width:100%;padding:10px;margin-bottom:10px;border-radius:8px;">
-    <input type="email" placeholder="Email" style="width:100%;padding:10px;margin-bottom:10px;border-radius:8px;">
-    <input type="text" placeholder="Phone" style="width:100%;padding:10px;margin-bottom:10px;border-radius:8px;">
-    <textarea placeholder="Your Message" style="width:100%;padding:10px;margin-bottom:10px;border-radius:8px;"></textarea>
-    <button type="submit" style="padding:10px 20px;border-radius:8px;background:#38bdf8;color:#020617;border:none;">Send Message</button>
+  <p>+258 847332402</p>
+  
+<h3>Send a Message</h3>
+<form action="mailto:info@nexuslogistics.co.mz" method="post" enctype="text/plain">
+  <input type="text" placeholder="Full Name" name="name" required>
+  <input type="email" placeholder="Email" name="email" required>
+  <input type="text" placeholder="Phone" name="phone">
+  <textarea placeholder="Your Message" name="message" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
   </form>
 </section>
 
